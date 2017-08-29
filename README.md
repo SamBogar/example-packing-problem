@@ -1,6 +1,6 @@
 ![alt text](https://www.geek.com/wp-content/uploads/2016/05/image.jpg)
 
-# example-packing-problem
+# Tetris Solver
 
 Bitwise implementation of a recursive backtracking algorithm to solve an example packing problem
 
