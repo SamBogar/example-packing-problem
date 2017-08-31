@@ -1,4 +1,4 @@
-![alt text](https://doc-08-9g-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/9e3647bi8sef9ptuk6eqbruc1nc5ouj9/1504137600000/16647101623838050145/*/0B2e2R2TW3WMZUkZjRWRkbFRqS0E)
+![alt text](https://lh3.googleusercontent.com/zqDvtohCL20UIq0vC3ooM_gjdg_3kHrHD8PHO6gdip6RJq-0UT-SVVIsg-IH_LQJgJ8CLXD8EuvPVZI=w2494-h2480-rw)
 ## Tetris Solver
 
 # Overview
