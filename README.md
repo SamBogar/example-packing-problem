@@ -9,7 +9,6 @@ The compuations necessary to solve this problem increase exponentially as the nu
 This project is an implementation of a recursive backtracking algorithm
 
 The gist of the program is as follows:
-
 -tetris_solver will declare a "map" on which it will attempt to place pieces
 -tetris_solver will then parse the given input file, and place all read pieces into a hashmap	
 -tetris_solver will then attempt to place pieces on the map, one at a time.
