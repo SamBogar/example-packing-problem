@@ -1,4 +1,3 @@
-![alt text](https://lh3.googleusercontent.com/zqDvtohCL20UIq0vC3ooM_gjdg_3kHrHD8PHO6gdip6RJq-0UT-SVVIsg-IH_LQJgJ8CLXD8EuvPVZI=w2494-h2480-rw)
 # Tetris Solver
 
 ## Overview
@@ -9,15 +8,14 @@ The compuations necessary to solve this problem increase exponentially as the nu
 ## The Algorithm
 This project is an implementation of a recursive backtracking algorithm
 
-The gist of the program is as follows:\n
+The gist of the program is as follows:
 	-tetris_solver will declare a "map" on which it will attempt to place pieces
 	-tetris_solver will then parse the given input file, and place all read pieces into a hashmap	
 	-tetris_solver will then attempt to place pieces on the map, one at a time.
-		*if it encounters a piece that cannot be placed anywhere on the map, the placing function returns, the previously placed piece is then moved to the next acceptable place for it, and the program continues checking
-		*if all possible locations of all pieces have been checked and a valid map has not been made, the map is then expanded, and the process begins anew.
-		*once all pieces have been placed on a map, the problem has been solved, and the map information is passed to the printing function
+		-if it encounters a piece that cannot be placed anywhere on the map, the placing function returns, the previously placed piece is then moved to the next acceptable place for it, and the program continues checking
+		-if all possible locations of all pieces have been checked and a valid map has not been made, the map is then expanded, and the process begins anew.
+		-once all pieces have been placed on a map, the problem has been solved, and the map information is passed to the printing function
 	
 ## The Optimization
-
 
 The algorithm is aggressively optimized by storing all map information in a series of bytes, and by storing all piece information in a hashmap for quick searching
