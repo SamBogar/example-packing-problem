@@ -22,24 +22,17 @@ The algorithm is aggressively optimized by storing all map information in a seri
 
 The "map" is represented as 16 unsigned shorts (each of which has 16 bits). Each bit represents the state of one square on the resulting board.
 When the map is declared, all bits except the upper-left most 4 are set to "1", as shown here:
-> 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-
-> 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-
-> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
-
-> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
-> 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
-
+```
+0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+```
 This sets up the program with a working map of the smallest possible size. As the program runs, the map will be expanded as necessary.
 All pieces are stored as unsigned longs. In the case of a vertical straight line, the piece is represented on the board as
 > 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
