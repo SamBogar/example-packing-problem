@@ -31,11 +31,13 @@ When the map is declared, all bits except the upper-left most 4 are set to "1", 
 > 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 > 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
 > 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+
 This sets up the program with a working map of the smallest possible size. As the program runs, the map will be expanded as necessary.
 All pieces are stored as unsigned longs. In the case of a vertical straight line, the piece is represented on the board as
 > 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 > 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 > 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 > 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+
 If you represent this quantity in a single line of binary, it can be treated as a single value. This makes the time necessary for attempts at checking whether a placement for a piece on the board is valid, placing a piece on the board, removing a piece from the board, and everything in-between as simple as a single xor operation.
 By taking advantage of the speed of bit-wise operations my partner and I were able to out-perform the overwhelming majority of solutions to this problem.
