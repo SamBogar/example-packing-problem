@@ -10,7 +10,7 @@
 #                                                                              #
 # **************************************************************************** #
 
-NAME = fillit
+NAME = tetris_solver 
 
 FLAGS = -Wall -Werror -Wextra
 
@@ -32,7 +32,7 @@ all: $(NAME)
 
 $(NAME): objs/ $(LIB) $(OBJS)
 	@gcc -o $(NAME) $(FLAGS) $(OBJS) -L./libft/ -lft
-	@echo "fillit has been made!"
+	@echo "tetris_solver has been made!"
 
 objs/%.o: src/%.c
 	@gcc $(FLAGS) -c $^ -o $@

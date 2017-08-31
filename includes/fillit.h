@@ -17,6 +17,8 @@
 # define BOARD_SIZE 16
 # define BUF 22
 
+#include <stdio.h>
+
 typedef unsigned long long	t_uint64;
 typedef unsigned char		t_bool;
 typedef struct				s_piece{
