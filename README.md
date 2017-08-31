@@ -1,12 +1,12 @@
 ![alt text](https://lh3.googleusercontent.com/zqDvtohCL20UIq0vC3ooM_gjdg_3kHrHD8PHO6gdip6RJq-0UT-SVVIsg-IH_LQJgJ8CLXD8EuvPVZI=w2494-h2480-rw)
-## Tetris Solver
+# Tetris Solver
 
-# Overview
+## Overview
 The problem being solved is a packing problem- specifically fitting tetris pieces into as small a space as possible.
 
 The compuations necessary to solve this problem increase exponentially as the number of pieces increases, but it performs the calculations in human time for nearly 30 pieces. This is thanks to the aggressive optimization of the algorithm done by my partner and I
 
-# The Algorithm
+## The Algorithm
 This project is an implementation of a recursive backtracking algorithm
 
 The gist of the program is as follows:
@@ -17,7 +17,7 @@ The gist of the program is as follows:
 		*if all possible locations of all pieces have been checked and a valid map has not been made, the map is then expanded, and the process begins anew.
 		*once all pieces have been placed on a map, the problem has been solved, and the map information is passed to the printing function
 	
-# The Optimization
+## The Optimization
 
 
 The algorithm is aggressively optimized by storing all map information in a series of bytes, and by storing all piece information in a hashmap for quick searching
