@@ -1,5 +1,9 @@
 # Tetris Solver
 
+###### Like all the projects on this github, simply type 'make' into the command line while in the repository directory to compile
+
+#### Once compiled, type './tetris_solver ' followed by the path to one of the maps in the included 'test_maps' directory
+
 ## Overview
 The problem being solved is a packing problem- specifically fitting tetris pieces into as small a space as possible.
 
