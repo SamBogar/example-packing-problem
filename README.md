@@ -1,6 +1,6 @@
 # Tetris Solver
-![alt text](http://meatfighter.com/tetrisprinteralgorithm/triple1.gif)
 ###### Like all the projects on this github, simply type 'make' into the command line while in the repository directory to compile
+![alt text](http://meatfighter.com/tetrisprinteralgorithm/triple1.gif)
 
 #### Once compiled, type './tetris_solver ' followed by the path to one of the maps in the included 'test_maps' directory
 
